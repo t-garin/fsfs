@@ -1,0 +1,19 @@
+# Generated documentation (rebuilt by `just docs`)
+docs/build/
+docs/src/api/
+docs/src/callgraph.md
+docs/src/assets/mermaid.min.js
+
+# Local-only, not published
+AGENTS.md
+sweep_*.slurm
+
+# Runtime output and caches
+sim_out/
+fsfs_cache/
+*.log
+*.err
+*.part
+.DS_Store
+*.jl.cov
+*.jl.mem

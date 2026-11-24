@@ -1,0 +1,68 @@
+name = "FSFS"
+uuid = "3aa7ef56-823b-4d64-921f-87a67c1c4d86"
+version = "0.1.0"
+authors = ["t-garin"]
+
+[deps]
+Agents = "46ada45e-f475-11e8-01d0-f70cc89e6671"
+ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Chain = "8be319e6-bccf-4806-a6f7-6fae938471bc"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+Extents = "411431e0-e8b7-467b-b5e0-f676ba4f2910"
+GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+ImageInpainting = "2bcd8d84-2ef9-5317-bfa0-0ed5605635ad"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+MapTiles = "fea52e5a-b371-463b-85f5-81770daa2737"
+MermaidCallGraph = "7b7e2762-91da-41e0-bafb-402c485bb3fe"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+ProgressBars = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Rasters = "a3a2b9e3-a471-40c9-b274-f788e487c689"
+Runic = "62bfec6d-59d7-401d-8490-b29ee721c001"
+TileProviders = "263fe934-28e1-4ae9-998a-c2629c5fede6"
+Torrent = "a831d48f-0591-49bf-b1e7-0ccdf4ed7091"
+Tyler = "e170d443-b9d6-418a-9ee8-061e966341ef"
+
+[sources]
+MermaidCallGraph = {rev = "7d2cbcb541bdadf7c957caf8700e7b0ff0f47cc4", url = "https://github.com/t-garin/MermaidCallGraph.jl.git"}
+Torrent = {rev = "0e4a90a304d8d1b663eb237e99f468c0eeea7ee7", url = "https://github.com/DOE-ICoM/Torrent.jl.git"}
+
+[compat]
+Agents = "7.0.3"
+ArchGDAL = "0.10.12"
+CSV = "0.10.17"
+CairoMakie = "0.15.14"
+Chain = "1.0.0"
+DataFrames = "1.8.2"
+DocStringExtensions = "0.9"
+Documenter = "1"
+Downloads = "1.7.0"
+Extents = "0.1.6"
+GeoInterface = "1.6.2"
+HTTP = "1.11.0"
+ImageInpainting = "1.0.0"
+JSON = "1"
+Makie = "0.24.14"
+MapTiles = "1.0.2"
+Printf = "1.11.0"
+ProgressBars = "1.5"
+Random = "1.11.0"
+Rasters = "0.15.0"
+Runic = "1.10.0"
+TileProviders = "0.1.4"
+Tyler = "0.2.6"
+julia = "1.12"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

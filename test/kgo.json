@@ -1,0 +1,29 @@
+{
+  "dam": {
+    "final_depth_sum": 15912.69,
+    "flooded_cells": 6935,
+    "n_agents": 22,
+    "n_danger": 0,
+    "n_dead": 1,
+    "n_safe": 21,
+    "peak_danger": 2
+  },
+  "rain": {
+    "final_depth_sum": 272.6,
+    "flooded_cells": 3783,
+    "n_agents": 5,
+    "n_danger": 0,
+    "n_dead": 0,
+    "n_safe": 5,
+    "peak_danger": 0
+  },
+  "river": {
+    "final_depth_sum": 1487.3,
+    "flooded_cells": 964,
+    "n_agents": 1,
+    "n_danger": 0,
+    "n_dead": 0,
+    "n_safe": 1,
+    "peak_danger": 0
+  }
+}

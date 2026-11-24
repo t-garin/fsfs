@@ -1,5 +1,13 @@
-# fsfs
+# _Flooding Sims© For Science_
 
-This repository is currently empty and will probably remain so until the end of my contract in December 2026, as I need to tidy things up before making it public. 
+> ⚠️ WARNING: PROTOTYPE ⚠️
+>
+> Intended as a proof-of-concept and not a production-ready software, use with care (and fun)!
 
-Please contact me directly (t.garin@proton.me) if you need access to any code – I will be very happy to provide it!
+---
+
+`FSFS` is an agent-based flood-evacuation simulation coupling a hydrodynamic
+flood model (Torrent.jl) with an agent-based population model (Agents.jl).
+It is part of the work documented in the
+[tech report 2023-2026](https://github.com/t-garin/tech-report-2023-2026),
+which explains this tool in context.
